@@ -79,6 +79,9 @@
     let g:floaterm_keymap_next   = '<F9>'
     let g:floaterm_keymap_toggle = '<F12>'
 
+- repo: liuchengxu/vim-clap
+  build: ':Clap install-binary!'
+
 # Denite
 
 - repo: Shougo/denite.nvim
@@ -156,6 +159,9 @@
 - repo: vim-scripts/BufOnly.vim
 
 - { repo: romainl/vim-cool, on_event: [ CursorMoved, InsertEnter ]}
+
+- repo: glepnir/dashboard-nvim
+  hook_add: source  $VIM_PATH/config/plugins/dashboard.vim
 
 # Completion and code analysis
 
