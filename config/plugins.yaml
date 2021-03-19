@@ -134,7 +134,6 @@
   on_map: { n: <Plug> }
 
 - repo: simeji/winresizer
-  on_map: { n: <Plug> }
 
 - { repo: rhysd/accelerated-jk, on_map: { n: <Plug> }, if: $SUDO_USER == '' }
 
