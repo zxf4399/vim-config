@@ -23,6 +23,7 @@ let g:coc_global_extensions =[
     \ 'coc-yank',
     \ 'coc-actions',
     \ 'coc-db',
+    \ 'coc-prettier',
     \]
 
 augroup MyAutoCmd
@@ -54,3 +55,9 @@ nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
+
+" coc-prettier
+
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+vmap <leader>f  <Plug>(coc-format-selected)
+nmap <leader>f  <Plug>(coc-format-selected)

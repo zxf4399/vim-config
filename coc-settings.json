@@ -1,0 +1,23 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "html",
+    "javascript",
+    "json",
+    "markdown",
+    "scss",
+    "typescript",
+    "typescriptreact",
+    "vue"
+  ],
+
+  "css.lint.unknownAtRules": "ignore",
+  "css.validate": false,
+
+  "javascript.suggestionActions.enabled": false,
+
+  "prettier.disableLanguages": [],
+  "prettier.proseWrap": "always",
+  "prettier.semi": false,
+  "prettier.singleQuote": true
+}
