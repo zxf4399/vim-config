@@ -4,7 +4,6 @@
 # See config/plugins/all.vim for plugin mappings and config/plugins/*.vim
 
 # Startup
-# -------
 
 - { repo: rafi/awesome-vim-colorschemes, merged: 0 }
 - repo: christoomey/vim-tmux-navigator
@@ -15,9 +14,6 @@
 
 - { repo: roxma/nvim-yarp, if: "! has('nvim')", depends: vim-hug-neovim-rpc }
 - { repo: roxma/vim-hug-neovim-rpc, if: "! has('nvim')" }
-
-# Lazy Loading
-# ==========================================
 
 # Languages
 
@@ -75,9 +71,11 @@
   on_cmd: LazyGit
   rev: nvim-v0.4.3
 
-# ==========================================
+- repo: voldikss/vim-floaterm
+  on_cmd: [FloatermNew, FloatermToggle, FloatermNext, FloatermPrev]
+
 # Denite
-# ------
+
 - repo: Shougo/denite.nvim
   on_cmd: Denite
   trusted: 1
@@ -167,6 +165,5 @@
   depends : coc.nvim
   if: has('python3')
   merged: 0
-
 
 #  vim: set ts=2 sw=2 tw=80 et :
