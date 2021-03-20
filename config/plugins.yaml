@@ -52,6 +52,13 @@
 
 # Commands
 
+- repo: ianding1/leetcode.vim
+  on_cmd: LeetCodeList
+  hook_add: |-
+    let g:leetcode_china = 1
+    let g:leetcode_solution_filetype = 'javascript'
+    let g:leetcode_browser = 'chrome'
+
 - repo: APZelos/blamer.nvim
   on_cmd: BlamerToggle
 
