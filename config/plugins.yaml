@@ -178,7 +178,7 @@
 
 - repo: glepnir/spaceline.vim
   hook_add: |-
-    let g:spaceline_seperate_style= 'slant-cons'
+    let g:spaceline_seperate_style= 'slant'
     let g:spaceline_git_branch_icon= ' '
 
 - repo: bagrat/vim-buffet
@@ -227,6 +227,18 @@
       \ 'book_marks'         : 'SPC f b',
       \ }
     let g:dashboard_custom_header = [
+      \ '                                                       ',
+      \ '                                                       ',
+      \ '                                                       ',
+      \ '                                                       ',
+      \ '                                                       ',
+      \ '                                                       ',
+      \ '                                                       ',
+      \ '                                                       ',
+      \ '                                                       ',
+      \ '                                                       ',
+      \ '                                                       ',
+      \ '                                                       ',
       \ ' ███╗   ██╗ ███████╗ ██████╗  ██╗   ██╗ ██╗ ███╗   ███╗',
       \ ' ████╗  ██║ ██╔════╝██╔═══██╗ ██║   ██║ ██║ ████╗ ████║',
       \ ' ██╔██╗ ██║ █████╗  ██║   ██║ ██║   ██║ ██║ ██╔████╔██║',
