@@ -33,7 +33,15 @@
 
 - repo: sheerun/vim-polyglot
 
+- { repo: hail2u/vim-css3-syntax, on_ft: css }
+
+- { repo: othree/csscomplete.vim, on_ft: css }
+
+- { repo: groenewege/vim-less, on_ft: less }
+
 - { repo: heavenshell/vim-jsdoc, on_ft: [ javascript, javascriptreact, typescript, typescriptreact ] }
+
+- { repo: moll/vim-node, on_ft: [ javascript, javascriptreact ] }
 
 - repo: dsznajder/vscode-es7-javascript-react-snippets
   build: 'yarn install --frozen-lockfile && yarn compile'
