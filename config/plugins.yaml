@@ -177,6 +177,9 @@
 - repo: ryanoasis/vim-devicons
 
 - repo: glepnir/spaceline.vim
+  hook_add: |-
+    let g:spaceline_seperate_style= 'slant-cons'
+    let g:spaceline_git_branch_icon= ' '
 
 - repo: bagrat/vim-buffet
 
