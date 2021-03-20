@@ -26,6 +26,9 @@
 
 # Commands
 
+- repo: APZelos/blamer.nvim
+  on_cmd: BlamerToggle
+
 - repo: liuchengxu/vista.vim
   on_cmd: Vista
   hook_add: |-
