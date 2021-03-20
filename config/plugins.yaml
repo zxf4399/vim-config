@@ -59,10 +59,14 @@
     let g:vista#renderer#enable_icon = 1
     let g:vista_echo_cursor_strategy = 'scroll'
     let g:vista_vimwiki_executive = 'markdown'
+    let g:vista_default_executive = 'coc'
     let g:vista_executive_for = {
       \ 'vimwiki': 'markdown',
       \ 'pandoc': 'markdown',
       \ 'markdown': 'toc',
+      \ 'yaml': 'coc',
+      \ 'typescript': 'coc',
+      \ 'typescriptreact': 'coc',
       \ }
 
 - repo: junegunn/fzf
