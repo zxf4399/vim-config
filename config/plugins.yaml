@@ -19,6 +19,8 @@
 
 - repo: tpope/vim-sleuth
 
+- repo: Shougo/context_filetype.vim
+
 # Improve CursorHold performance
 # See: https://github.com/neovim/neovim/issues/12587
 - { repo: antoinemadec/FixCursorHold.nvim, if: "has('nvim')" }
@@ -105,7 +107,9 @@
     let g:floaterm_keymap_toggle = '<F12>'
 
 - repo: liuchengxu/vim-clap
-  build: ':Clap install-binary!'
+  merged: 0
+  build: 'bash install.sh'
+  on_map: { n: <Plug> }
 
 # Denite
 
