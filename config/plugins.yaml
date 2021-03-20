@@ -48,6 +48,8 @@
 - repo: dsznajder/vscode-es7-javascript-react-snippets
   build: 'yarn install --frozen-lockfile && yarn compile'
 
+- repo: alvan/vim-closetag
+
 # Commands
 
 - repo: APZelos/blamer.nvim
