@@ -63,25 +63,6 @@ augroup user_plugin_filetype " {{{
 		\   echo 'source ' . bufname('%') |
 		\ endif
 
-	" When editing a file, always jump to the last known cursor position.
-	" Credits: https://github.com/farmergreg/vim-lastplace
-	autocmd BufReadPost *
-		\ if index(['gitcommit', 'gitrebase', 'svn', 'hgcommit'], &buftype) == -1 &&
-		\      index(['quickfix', 'nofile', 'help'], &buftype) == -1 &&
-		\      ! &diff && ! &previewwindow &&
-		\      line("'\"") > 0 && line("'\"") <= line("$")
-		\|   if line("w$") == line("$")
-		\|     execute "normal! g`\""
-		\|   elseif line("$") - line("'\"") > ((line("w$") - line("w0")) / 2) - 1
-		\|     execute "normal! g`\"zz"
-		\|   else
-		\|     execute "normal! \G'\"\<c-e>"
-		\|   endif
-		\|   if foldclosed('.') != -1
-		\|     execute 'normal! zvzz'
-		\|   endif
-		\| endif
-
 	autocmd FileType apache setlocal path+=./;/
 
 	autocmd FileType html setlocal path+=./;/
