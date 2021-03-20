@@ -81,9 +81,11 @@ if dein#tap('dashboard-nvim')
 endif
 
 if dein#tap('vim-clap')
+	nnoremap <silent> <C-p> :Clap <CR>
+endif
 
-nnoremap <silent> <C-p> :Clap <CR>
-
+if dein#tap('vim-easymotion')
+	map <LocalLeader><LocalLeader> <Plug>(easymotion-prefix)
 endif
 
 " vim: set ts=2 sw=2 tw=80 noet :

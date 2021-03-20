@@ -182,13 +182,13 @@
   hook_add: |-
     let g:spaceline_seperate_style= 'slant'
     let g:spaceline_git_branch_icon= ' '
+    let g:spaceline_diff_tool = 'git-gutter'
 
 - repo: bagrat/vim-buffet
 
 # Interface
 
 - repo: easymotion/vim-easymotion
-  on_map: { n: <Plug> }
 
 - repo: tpope/vim-surround
   on_map: { n: <Plug> }
@@ -258,5 +258,9 @@
   depends : coc.nvim
   if: has('python3')
   merged: 0
+
+# Git
+
+- repo: airblade/vim-gitgutter
 
 #  vim: set ts=2 sw=2 tw=80 et :
