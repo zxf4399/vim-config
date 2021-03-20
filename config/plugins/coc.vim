@@ -14,7 +14,6 @@ let g:coc_global_extensions =[
     \ 'coc-pairs',
     \ 'coc-json',
     \ 'coc-highlight',
-    \ 'coc-git',
     \ 'coc-emoji',
     \ 'coc-lists',
     \ 'coc-yaml',
