@@ -19,6 +19,11 @@
 
 - repo: tpope/vim-sleuth
 
+# Improve CursorHold performance
+# See: https://github.com/neovim/neovim/issues/12587
+- { repo: antoinemadec/FixCursorHold.nvim, if: "has('nvim')" }
+
+
 # Vim8 only:
 
 - { repo: roxma/nvim-yarp, if: "! has('nvim')", depends: vim-hug-neovim-rpc }
