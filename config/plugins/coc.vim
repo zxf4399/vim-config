@@ -24,6 +24,7 @@ let g:coc_global_extensions =[
     \ 'coc-actions',
     \ 'coc-db',
     \ 'coc-prettier',
+    \ 'coc-vetur',
     \]
 
 augroup MyAutoCmd
