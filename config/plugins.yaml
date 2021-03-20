@@ -9,6 +9,9 @@
 - repo: christoomey/vim-tmux-navigator
   if: "! (has('win32') || has('win64'))"
 - repo: yianwillis/vimcdoc
+- repo: editorconfig/editorconfig-vim
+  hook_add: |-
+    let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
 
 # Vim8 only:
 
