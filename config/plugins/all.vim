@@ -67,4 +67,17 @@ if dein#tap('accelerated-jk')
 	nmap <silent> k <Plug>(accelerated_jk_gk)
 endif
 
+if dein#tap('dashboard-nvim')
+	autocmd FileType dashboard set showtabline=0 | autocmd WinLeave <buffer> set showtabline=2
+
+	nmap <Leader>ss :<C-u>SessionSave<CR>
+	nmap <Leader>sl :<C-u>SessionLoad<CR>
+	nnoremap <silent> <Leader>fh :DashboardFindHistory<CR>
+	nnoremap <silent> <Leader>ff :DashboardFindFile<CR>
+	nnoremap <silent> <Leader>tc :DashboardChangeColorscheme<CR>
+	nnoremap <silent> <Leader>fa :DashboardFindWord<CR>
+	nnoremap <silent> <Leader>fb :DashboardJumpMark<CR>
+	nnoremap <silent> <Leader>cn :DashboardNewFile<CR>
+endif
+
 " vim: set ts=2 sw=2 tw=80 noet :
