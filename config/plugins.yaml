@@ -113,7 +113,26 @@
 - repo: liuchengxu/vim-clap
   merged: 0
   build: 'bash install.sh'
-  on_map: { n: <Plug> }
+  on_cmd: Clap
+  hook_add: |-
+    let g:clap_cache_directory = $DATA_PATH . '/clap'
+    let g:clap_disable_run_rooter = v:true
+    let g:clap_theme = 'atom_dark'
+    let g:clap_layout = { 'relative': 'editor' }
+    let g:clap_enable_icon = 1
+    let g:clap_search_box_border_style = 'curve'
+    let g:clap_provider_grep_enable_icon = 1
+    let g:clap_prompt_format = '%spinner%%forerunner_status% %provider_id%: '
+    let g:clap_current_selection_sign = {
+      \ 'text': '→',
+      \ 'texthl': 'ClapCurrentSelectionSign',
+      \ 'linehl': 'ClapCurrentSelection' }
+    let g:clap_selected_sign = {
+      \ 'text': '* ',
+      \ 'texthl': 'ClapSelectedSign',
+      \ 'linehl': 'ClapSelected' }
+    highlight! link ClapMatches Function
+    highlight! link ClapNoMatchesFound WarningMsg
 
 # Denite
 
