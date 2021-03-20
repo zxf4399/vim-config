@@ -80,4 +80,10 @@ if dein#tap('dashboard-nvim')
 	nnoremap <silent> <Leader>cn :DashboardNewFile<CR>
 endif
 
+if dein#tap('vim-clap')
+
+nnoremap <silent> <C-p> :Clap <CR>
+
+endif
+
 " vim: set ts=2 sw=2 tw=80 noet :
