@@ -208,6 +208,8 @@
 
 - repo: mg979/vim-visual-multi
   rev: 'master'
+  hook_add: |-
+    let g:VM_default_mappings = 0
 
 - repo: preservim/nerdcommenter
   hook_add: |-
