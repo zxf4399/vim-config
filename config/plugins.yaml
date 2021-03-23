@@ -190,6 +190,8 @@
 
 # Interface
 
+- repo: Konfekt/FastFold
+
 - repo: easymotion/vim-easymotion
 
 - repo: tpope/vim-surround
