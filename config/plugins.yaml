@@ -202,10 +202,6 @@
 - repo: jiangmiao/auto-pairs
   on_map: { x: <Plug> }
 
-- repo: luochen1990/rainbow
-  hook_add: |-
-    let g:rainbow_active = 1 
-
 - repo: farmergreg/vim-lastplace
 
 - repo: mg979/vim-visual-multi
