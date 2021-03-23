@@ -49,6 +49,8 @@
   build: 'yarn install --frozen-lockfile && yarn compile'
 
 - repo: alvan/vim-closetag
+  hook_add: |-
+    let g:closetag_filetypes = 'html,typescriptreact'
 
 # Commands
 
