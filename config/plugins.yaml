@@ -248,6 +248,10 @@
   hook_add: source  $VIM_PATH/config/plugins/coc.vim
   hook_source: source $VIM_PATH/config/plugins/lsp.vim
 
+- repo: antoinemadec/coc-fzf
+  merged: 0
+  rev: 'release'
+
 - repo: honza/vim-snippets
   depends : coc.nvim
   if: has('python3')
