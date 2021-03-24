@@ -88,14 +88,6 @@
 
 - repo: wsdjeg/dein-ui.vim
 
-- repo: Shougo/defx.nvim
-  on_cmd: Defx
-  hook_source: source $VIM_PATH/config/plugins/defx.vim
-
-- { repo: kristijanhusak/defx-git, on_source: defx.nvim }
-
-- { repo: kristijanhusak/defx-icons, on_source: defx.nvim }
-
 - repo: t9md/vim-choosewin
   on_map: { n: <Plug> }
   hook_add: |-

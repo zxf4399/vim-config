@@ -24,6 +24,7 @@ let g:coc_global_extensions =[
     \ 'coc-db',
     \ 'coc-prettier',
     \ 'coc-vetur',
+    \ 'coc-explorer',
     \]
 
 augroup MyAutoCmd
@@ -79,3 +80,7 @@ function! s:show_documentation()
     execute '!' . &keywordprg . " " . expand('<cword>')
   endif
 endfunction
+
+" coc-explorer
+
+nmap <leader>e :CocCommand explorer<CR>
