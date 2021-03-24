@@ -58,7 +58,6 @@
   on_cmd: BlamerToggle
 
 - repo: liuchengxu/vista.vim
-  on_cmd: Vista
   hook_add: |-
     let g:vista#renderer#enable_icon = 1
     let g:vista_echo_cursor_strategy = 'scroll'
@@ -172,13 +171,11 @@
 
 - repo: ryanoasis/vim-devicons
 
-- repo: glepnir/spaceline.vim
-  hook_add: |-
-    let g:spaceline_seperate_style= 'slant'
-    let g:spaceline_git_branch_icon= ' '
-    let g:spaceline_diff_tool = 'git-gutter'
-
 - repo: bagrat/vim-buffet
+
+- repo: vim-airline/vim-airline
+
+- repo: vim-airline/vim-airline-themes
 
 # Interface
 
