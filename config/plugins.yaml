@@ -82,7 +82,7 @@
 - repo: junegunn/fzf.vim
   depends: fzf
   merged: 0
-  on_cmd: [ Files, GitFiles, Buffers, Lines, Locate, Colors, Ag, Rg, Tags ]
+  on_cmd: [ Files, GitFiles, GitFiles?, Buffers, Lines, Locate, Colors, Ag, Rg, Tags ]
   on_func: [ fzf#vim#with_preview, fzf#run, vista#finder#fzf#Run ]
 
 - repo: wsdjeg/dein-ui.vim
@@ -104,6 +104,8 @@
     let g:floaterm_keymap_prev   = '<F8>'
     let g:floaterm_keymap_next   = '<F9>'
     let g:floaterm_keymap_toggle = '<F12>'
+    let g:floaterm_wintype = 'split'
+    let g:floaterm_height = 20
 
 - repo: liuchengxu/vim-clap
   merged: 0
