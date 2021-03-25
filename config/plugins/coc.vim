@@ -26,6 +26,7 @@ let g:coc_global_extensions =[
     \ 'coc-vetur',
     \ 'coc-explorer',
     \ 'coc-cssmodules',
+    \ 'coc-eslint',
     \]
 
 augroup MyAutoCmd
