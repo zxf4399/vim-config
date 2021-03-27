@@ -263,11 +263,6 @@ endif
 vnoremap <Leader>S y:execute @@<CR>:echo 'Sourced selection.'<CR>
 nnoremap <Leader>S ^vg_y:execute @@<CR>:echo 'Sourced line.'<CR>
 
-" Context-aware action-menu, neovim only (see plugin/actionmenu.vim)
-if has('nvim')
-	nmap <silent> <LocalLeader>c :<C-u>ActionMenu<CR>
-endif
-
 " Session management shortcuts (see plugin/sessions.vim)
 nmap <Leader>se :<C-u>SessionSave<CR>
 nmap <Leader>sl :<C-u>SessionLoad<CR>

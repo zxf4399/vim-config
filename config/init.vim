@@ -11,7 +11,7 @@ augroup user_events
 augroup END
 
 " Initializes options
-let s:package_manager = get(g:, 'etc_package_manager', 'dein')
+let s:package_manager = get(g:, 'etc_package_manager', 'plug')
 if empty(s:package_manager) || s:package_manager ==# 'none'
 	finish
 endif

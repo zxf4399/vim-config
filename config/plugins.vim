@@ -1,3 +1,27 @@
+" ===
+" === vim-choosewin
+" ===
+
+nmap -         <Plug>(choosewin)
+map <Leader>- :<C-u>ChooseWinSwapStay<CR>
+
+" ===
+" === accelerated-jk
+" ===
+
+nmap <silent> j <Plug>(accelerated_jk_gj)
+nmap <silent> k <Plug>(accelerated_jk_gk)
+
+" ===
+" === vim-cool
+" ===
+
+let g:CoolTotalMatches = 1
+
+" ===
+" === coc.nvim
+" ===
+
 let g:coc_snippet_next = '<TAB>'
 let g:coc_snippet_prev = '<S-TAB>'
 let g:coc_status_error_sign = '•'
@@ -82,3 +106,6 @@ endfunction
 " coc-explorer
 
 nmap <leader>e :CocCommand explorer<CR>
+
+" vim: set ts=2 sw=2 tw=80 noet :
+
