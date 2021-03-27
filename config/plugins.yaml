@@ -33,7 +33,7 @@
 
 # Commands
 
-# ⭐️
+# 🚀
 - { repo: APZelos/blamer.nvim, 'on': ['BlamerToggle'] }
 
 - repo: liuchengxu/vista.vim
@@ -82,10 +82,10 @@
 
 - repo: preservim/nerdcommenter
 
-# ⭐️
+# 🚀
 - { repo: vim-scripts/BufOnly.vim, 'on': 'BufOnly' }
 
-# ⭐️
+# 🚀
 - repo: romainl/vim-cool
 
 - repo: mhinz/vim-startify
