@@ -19,6 +19,13 @@ nmap <silent> k <Plug>(accelerated_jk_gk)
 let g:CoolTotalMatches = 1
 
 " ===
+" === blamer.nvim
+" ===
+
+let g:blamer_show_in_visual_modes = 0
+let g:blamer_show_in_insert_modes = 0
+
+" ===
 " === coc.nvim
 " ===
 

@@ -33,13 +33,14 @@
 
 # Commands
 
-- repo: APZelos/blamer.nvim
+# ⭐️
+- { repo: APZelos/blamer.nvim, 'on': ['BlamerToggle'] }
 
 - repo: liuchengxu/vista.vim
 
 - { repo: junegunn/fzf }
 
-- { repo: junegunn/fzf.vim }
+- { repo: junegunn/fzf.vim, 'on': ['Files'] }
 
 - repo: t9md/vim-choosewin
 
