@@ -13,7 +13,6 @@ let g:coc_global_extensions =[
     \ 'coc-emmet',
     \ 'coc-pairs',
     \ 'coc-json',
-    \ 'coc-highlight',
     \ 'coc-emoji',
     \ 'coc-lists',
     \ 'coc-yaml',
@@ -36,9 +35,6 @@ augroup MyAutoCmd
   " Update signature help on jump placeholder
   autocmd User CocJumpPlaceholder call CocActionAsync('showSignatureHelp')
 augroup end
-
-" Highlight symbol under cursor on CursorHold
-autocmd CursorHold * silent call CocActionAsync('highlight')
 
 "Use tab for trigger completion with characters ahead and navigate
 inoremap <silent><expr> <TAB>

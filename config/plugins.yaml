@@ -138,7 +138,7 @@
   trusted: 1
   hook_source: source $VIM_PATH/config/plugins/denite.vim
 
-# Markdown 
+# Markdown
 
 - repo: plasticboy/vim-markdown
   on_ft: markdown
