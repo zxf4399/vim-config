@@ -26,6 +26,12 @@ let g:blamer_show_in_visual_modes = 0
 let g:blamer_show_in_insert_modes = 0
 
 " ===
+" === lazygit.nvim
+" ===
+
+nnoremap <silent> <leader>lg :LazyGit<CR>
+
+" ===
 " === coc.nvim
 " ===
 
