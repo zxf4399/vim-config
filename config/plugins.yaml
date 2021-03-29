@@ -49,6 +49,8 @@
 
 - { repo: voldikss/vim-floaterm, 'on': ['FloatermNew'] }
 
+- { repo: ianding1/leetcode.vim, 'on': ['LeetCodeList'] }
+
 # Markdown
 
 - repo: plasticboy/vim-markdown

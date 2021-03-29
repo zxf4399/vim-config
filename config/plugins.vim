@@ -32,6 +32,19 @@ let g:blamer_show_in_insert_modes = 0
 nnoremap <silent> <leader>lg :LazyGit<CR>
 
 " ===
+" === leetcode.vim
+" ===
+"
+let g:leetcode_china = 1
+let g:leetcode_solution_filetype = 'javascript'
+let g:leetcode_browser = 'chrome'
+
+nnoremap <leader>ll :LeetCodeList<cr>
+nnoremap <leader>lt :LeetCodeTest<cr>
+nnoremap <leader>ls :LeetCodeSubmit<cr>
+nnoremap <leader>li :LeetCodeSignIn<cr>
+
+" ===
 " === coc.nvim
 " ===
 
