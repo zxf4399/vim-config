@@ -40,7 +40,7 @@
 
 - { repo: junegunn/fzf }
 
-- { repo: junegunn/fzf.vim, 'on': ['Files'] }
+- { repo: junegunn/fzf.vim }
 
 - repo: t9md/vim-choosewin
 

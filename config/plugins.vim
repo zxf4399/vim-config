@@ -34,7 +34,7 @@ nnoremap <silent> <leader>lg :LazyGit<CR>
 " ===
 " === leetcode.vim
 " ===
-"
+
 let g:leetcode_china = 1
 let g:leetcode_solution_filetype = 'javascript'
 let g:leetcode_browser = 'chrome'
@@ -43,6 +43,12 @@ nnoremap <leader>ll :LeetCodeList<cr>
 nnoremap <leader>lt :LeetCodeTest<cr>
 nnoremap <leader>ls :LeetCodeSubmit<cr>
 nnoremap <leader>li :LeetCodeSignIn<cr>
+
+" ===
+" === fzf.vim
+" ===
+
+command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
 
 " ===
 " === coc.nvim
