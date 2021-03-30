@@ -96,6 +96,7 @@ let g:coc_global_extensions =[
     \ 'coc-explorer',
     \ 'coc-cssmodules',
     \ 'coc-eslint',
+    \ 'coc-styled-components'
     \]
 
 augroup MyAutoCmd
