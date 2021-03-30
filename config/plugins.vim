@@ -32,6 +32,15 @@ let g:blamer_show_in_insert_modes = 0
 nnoremap <silent> <leader>lg :LazyGit<CR>
 
 " ===
+" === vim-floaterm
+" ===
+
+let g:floaterm_keymap_new    = '<F7>'
+let g:floaterm_keymap_prev   = '<F8>'
+let g:floaterm_keymap_next   = '<F9>'
+let g:floaterm_keymap_toggle = '<F12>'
+
+" ===
 " === leetcode.vim
 " ===
 
@@ -49,6 +58,11 @@ nnoremap <leader>li :LeetCodeSignIn<cr>
 " ===
 
 command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
+
+nnoremap <silent> <Leader>F :Files<CR>
+nnoremap <silent> <Leader>C :Colors<CR>
+nnoremap <silent> <Leader>B :Buffers<CR>
+nnoremap <silent> <Leader>L :Lines<CR>
 
 " ===
 " === coc.nvim
