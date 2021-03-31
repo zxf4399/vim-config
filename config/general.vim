@@ -68,7 +68,7 @@ endif
 " }}}
 " Vim Directories {{{
 " ---------------
-set undofile swapfile nobackup
+set undofile noswapfile nobackup
 set directory=$DATA_PATH/swap//,$DATA_PATH,~/tmp,/var/tmp,/tmp
 set undodir=$DATA_PATH/undo//,$DATA_PATH,~/tmp,/var/tmp,/tmp
 set backupdir=$DATA_PATH/backup/,$DATA_PATH,~/tmp,/var/tmp,/tmp
