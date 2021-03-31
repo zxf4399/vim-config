@@ -65,6 +65,12 @@ nnoremap <silent> <Leader>B :Buffers<CR>
 nnoremap <silent> <Leader>L :Lines<CR>
 
 " ===
+" === vim-airline
+" ===
+
+let g:airline#extensions#tabline#enabled = 1
+
+" ===
 " === coc.nvim
 " ===
 

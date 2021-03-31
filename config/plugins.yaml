@@ -20,7 +20,11 @@
 
 - repo: groenewege/vim-less
 
-- repo: heavenshell/vim-jsdoc
+- {
+    repo: heavenshell/vim-jsdoc,
+    'for': ['javascript', 'javascript.jsx', 'typescript', 'typescriptreact'],
+    'do': 'make install',
+  }
 
 - repo: moll/vim-node
 
