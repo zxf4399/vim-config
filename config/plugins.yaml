@@ -55,11 +55,13 @@
 
 - { repo: ianding1/leetcode.vim, 'on': ['LeetCodeList'] }
 
-# Markdown
+# Editor
 
 - repo: plasticboy/vim-markdown
 
 - repo: iamcco/markdown-preview.nvim
+
+- repo: vimwiki/vimwiki
 
 # Editor UI
 
