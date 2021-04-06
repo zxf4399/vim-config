@@ -37,9 +37,6 @@
 
 # Commands
 
-# 🚀
-- { repo: APZelos/blamer.nvim, 'on': ['BlamerToggle'] }
-
 - repo: liuchengxu/vista.vim
 
 - { repo: junegunn/fzf }
@@ -110,4 +107,5 @@
 # Git
 
 - repo: airblade/vim-gitgutter
+- repo: tpope/vim-fugitive
 #  vim: set ts=2 sw=2 tw=80 et :
