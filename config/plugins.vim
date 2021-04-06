@@ -71,6 +71,12 @@ nnoremap <silent> <Leader>L :Lines<CR>
 let g:airline#extensions#tabline#enabled = 1
 
 " ===
+" === vimwiki
+" ===
+
+let g:vimwiki_listsyms = '✗○◐●✓'
+
+" ===
 " === coc.nvim
 " ===
 
