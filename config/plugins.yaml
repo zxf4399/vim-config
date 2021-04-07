@@ -37,6 +37,8 @@
 
 # Commands
 
+- { repo: brooth/far.vim, 'on': ['Far'] }
+
 - repo: liuchengxu/vista.vim
 
 - { repo: junegunn/fzf }
