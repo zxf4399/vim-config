@@ -73,6 +73,12 @@ let g:airline#extensions#tabline#enabled = 1
 let g:vimwiki_listsyms = '✗○◐●✓'
 
 " ===
+" === vim-closetag
+" ===
+
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.jsx,*.tsx'
+
+" ===
 " === coc.nvim
 " ===
 
