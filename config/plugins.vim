@@ -50,7 +50,10 @@ nnoremap <leader>li :LeetCodeSignIn<cr>
 " === fzf.vim
 " ===
 
-command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
+command! -bang -nargs=* Rg
+    \ call fzf#vim#grep('rg --column --line-number --no-heading --color=always --smart-case '
+    \ . (len(<q-args>) > 0 ? <q-args> : '""'), 0,
+    \ fzf#vim#with_preview({'options': ['--delimiter=:', '--nth=2..', '--info=inline']}), <bang>0)
 
 nnoremap <silent> <Leader>F :Files<CR>
 nnoremap <silent> <Leader>C :Colors<CR>
