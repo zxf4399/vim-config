@@ -89,7 +89,6 @@ let g:coc_global_extensions =[
     \ 'coc-vimlsp',
     \ 'coc-snippets',
     \ 'coc-emmet',
-    \ 'coc-pairs',
     \ 'coc-json',
     \ 'coc-emoji',
     \ 'coc-lists',
