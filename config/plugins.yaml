@@ -98,6 +98,8 @@
 
 - repo: mhinz/vim-startify
 
+- repo: airblade/vim-rooter
+
 # Completion and code analysis
 
 - repo: neoclide/coc.nvim
