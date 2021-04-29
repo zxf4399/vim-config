@@ -81,6 +81,12 @@ let g:vimwiki_listsyms = '✗○◐●✓'
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.jsx,*.tsx'
 
 " ===
+" === nerdcommenter
+" ===
+
+let g:NERDSpaceDelims = 1
+
+" ===
 " === coc.nvim
 " ===
 
