@@ -60,7 +60,7 @@
 
 - { repo: iamcco/markdown-preview.nvim, 'do': 'cd app && yarn install' }
 
-# - repo: vimwiki/vimwiki
+- repo: vimwiki/vimwiki
 
 # Editor UI
 

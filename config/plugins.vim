@@ -87,6 +87,12 @@ let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.jsx,*.tsx'
 let g:NERDSpaceDelims = 1
 
 " ===
+" === vimwiki
+" ===
+
+let g:vimwiki_ext2syntax = {}
+
+" ===
 " === coc.nvim
 " ===
 
