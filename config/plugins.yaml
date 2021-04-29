@@ -58,9 +58,9 @@
 
 - repo: plasticboy/vim-markdown
 
-- repo: iamcco/markdown-preview.nvim
+- { repo: iamcco/markdown-preview.nvim, 'do': 'cd app && yarn install' }
 
-- repo: vimwiki/vimwiki
+# - repo: vimwiki/vimwiki
 
 # Editor UI
 
