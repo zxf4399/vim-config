@@ -47,6 +47,12 @@ nnoremap <leader>ls :LeetCodeSubmit<cr>
 nnoremap <leader>li :LeetCodeSignIn<cr>
 
 " ===
+" === vim-vue
+" ===
+
+let g:vue_pre_processors = 'detect_on_enter'
+
+" ===
 " === fzf.vim
 " ===
 

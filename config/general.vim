@@ -17,6 +17,7 @@ set synmaxcol=2500           " Don't syntax highlight long lines
 set formatoptions+=1         " Don't break lines after a one-letter word
 set formatoptions-=t         " Don't auto-wrap text
 set formatoptions-=o         " Disable comment-continuation (normal 'o'/'O')
+let loaded_matchparen = 1
 if has('patch-7.3.541')
 	set formatoptions+=j       " Remove comment leader when joining lines
 endif
@@ -214,7 +215,6 @@ set shortmess=aoOTI     " Shorten messages and don't show intro
 set scrolloff=2         " Keep at least 2 lines above/below
 set sidescrolloff=5     " Keep at least 5 lines left/right
 set number              " Show line numbers
-set relativenumber      " Show the line number relative to the line
 set noruler             " Disable default status ruler
 set list                " Show hidden characters
 
