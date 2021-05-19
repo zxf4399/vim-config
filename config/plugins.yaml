@@ -48,7 +48,6 @@
 - repo: t9md/vim-choosewin
 
 # 🚀
-- { repo: kdheepak/lazygit.nvim, 'branch': 'nvim-v0.4.3', 'on': ['LazyGit'] }
 
 - { repo: voldikss/vim-floaterm, 'on': ['FloatermNew'] }
 
