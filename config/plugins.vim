@@ -97,6 +97,13 @@ let g:NERDSpaceDelims = 1
 let g:vimwiki_ext2syntax = {}
 
 " ===
+" === vim-gitgutter
+" ===
+
+nmap ]h <Plug>(GitGutterNextHunk)
+nmap [h <Plug>(GitGutterPrevHunk)
+
+" ===
 " === coc.nvim
 " ===
 
