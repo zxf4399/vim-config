@@ -17,10 +17,6 @@ endif
 " Navigation {{{
 " ----------
 
-" Fix keybind name for Ctrl+Space
-map <Nul> <C-Space>
-map! <Nul> <C-Space>
-
 " Double leader key for toggling visual-line mode
 nmap <Leader><Leader> V
 vmap <Leader><Leader> <Esc>

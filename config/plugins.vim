@@ -32,6 +32,8 @@ let g:floaterm_keymap_new    = '<F7>'
 let g:floaterm_keymap_prev   = '<F8>'
 let g:floaterm_keymap_next   = '<F9>'
 let g:floaterm_keymap_toggle = '<F12>'
+let g:floaterm_width         = 0.8
+let g:floaterm_height        = 0.8
 
 " ===
 " === leetcode.vim
@@ -77,6 +79,7 @@ let g:airline#extensions#tabline#enabled = 1
 " ===
 
 let g:vimwiki_listsyms = '✗○◐●✓'
+let g:vimwiki_ext2syntax = {}
 
 " ===
 " === vim-closetag
@@ -89,12 +92,6 @@ let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.jsx,*.tsx'
 " ===
 
 let g:NERDSpaceDelims = 1
-
-" ===
-" === vimwiki
-" ===
-
-let g:vimwiki_ext2syntax = {}
 
 " ===
 " === vim-gitgutter
