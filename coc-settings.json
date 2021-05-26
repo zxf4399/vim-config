@@ -19,6 +19,10 @@
 
   "javascript.suggestionActions.enabled": false,
 
+  "markdownlint.config": {
+    "MD004": false
+  },
+
   "prettier.disableLanguages": [],
   "prettier.proseWrap": "always",
   "prettier.semi": false,

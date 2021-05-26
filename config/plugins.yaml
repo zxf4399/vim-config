@@ -61,6 +61,8 @@
 
 - repo: vimwiki/vimwiki
 
+- { repo: mzlogin/vim-markdown-toc }
+
 # Editor UI
 
 - repo: ryanoasis/vim-devicons
