@@ -4,7 +4,7 @@
     "html",
     "javascript",
     "json",
-    "markdown",
+    // "markdown",
     "scss",
     "typescript",
     "typescriptreact",
@@ -20,7 +20,10 @@
   "javascript.suggestionActions.enabled": false,
 
   "markdownlint.config": {
-    "MD004": false
+    "MD004": false,
+    "MD013": false,
+    "MD033": false,
+    "MD041": false
   },
 
   "prettier.disableLanguages": [],
