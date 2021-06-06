@@ -47,6 +47,8 @@
 
 - repo: t9md/vim-choosewin
 
+- repo: godlygeek/tabular
+
 # 🚀
 
 - { repo: voldikss/vim-floaterm, 'on': ['FloatermNew'] }
