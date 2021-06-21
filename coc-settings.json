@@ -16,6 +16,9 @@
   "css.lint.unknownAtRules": "ignore",
   "css.validate": false,
 
+  "explorer.autoExpandOptions": [
+    "uncompact"
+  ],
   "explorer.icon.enableNerdfont": true,
 
   "javascript.suggestionActions.enabled": false,
