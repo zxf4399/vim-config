@@ -111,6 +111,7 @@ let g:coc_status_warning_sign = '•'
 let g:coc_disable_transparent_cursor = 1
 
 let g:coc_global_extensions =[
+    \ 'coc-pairs',
     \ 'coc-tsserver',
     \ 'coc-html',
     \ 'coc-css',

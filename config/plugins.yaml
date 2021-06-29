@@ -85,8 +85,6 @@
 
 - repo: rhysd/accelerated-jk
 
-- repo: jiangmiao/auto-pairs
-
 - repo: farmergreg/vim-lastplace
 
 - repo: mg979/vim-visual-multi
